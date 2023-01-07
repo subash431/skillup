@@ -1,0 +1,50 @@
+@mixin flex__container($ai, $jc, $col, $gap) {
+    display: flex;
+    align-items: $ai;
+    justify-content: $jc ;
+    flex-direction: $col;
+    gap: $gap;
+
+
+}
+
+@mixin btn ($color) {
+    border: none;
+    padding: 1.5rem 2.5rem;
+    font-size: 1.5rem;
+    background-color: $color;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+
+
+}
+
+@mixin red {
+    color: red;
+}
+
+@mixin green {
+    color: $color__green;
+}
+
+@mixin orange {
+    color: orange;
+}
+
+@mixin h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@mixin span {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $color__green;
+}
+
+@mixin ptag {
+    font-size: 1.75rem;
+    line-height: 4rem;
+    text-align: center;
+}
